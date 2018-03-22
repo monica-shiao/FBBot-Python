@@ -1,4 +1,4 @@
-# 製作 Facebook Messenger Bots 教學
+# 製作 Facebook Messenger Bots 教學（使用ngrok）
 Building Facebook Messenger Bots with Python and ngrok
 
 
@@ -74,9 +74,17 @@ $ ngrok http 5000
 回到Step1的設定頁，設定 webhooks
 - Callback Url: 填入剛剛ngrok 產生 https的那串網址。
 - Verify Token: 填入剛剛在app.py中填寫的 VERIFY_TOKEN字串
+- 選擇活動（至少要有）：
+    - check the messages
+    - messaging_postbacks
+    - message_deliveries
+    - messaging_pre_checkouts boxes.
+- 訂閱粉絲專頁
 
 ---
-### 測試～～～～
+### 測試～～～～完成～～～～
+
+詳細操作步驟可見以下的完整教程。
 
 
 ### 參考資料
